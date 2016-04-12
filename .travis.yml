@@ -26,7 +26,7 @@ before_install:
 # WPILib packages
   - sudo add-apt-repository ppa:wpilib/toolchain -y
   - sudo apt-get update
-  - sudo apt-get install frc-toolchain
+  - sudo apt-get install frc-toolchain -y
 # Bazel
   - wget 'https://github.com/bazelbuild/bazel/releases/download/0.2.1/bazel-0.2.1-installer-linux-x86_64.sh'
   - chmod +x bazel-0.2.1-installer-linux-x86_64.sh
