@@ -1,4 +1,8 @@
 # Based on https://github.com/korfuri/bazel-travis
+
+sudo: required
+dist: trusty
+
 addons:
   apt:
     sources:
