@@ -7,7 +7,8 @@ cc_library(
     'wpilibc/Athena/include/**/*.h',
     'wpilibc/Athena/include/**/*.hpp',
     'wpilibc/shared/include/**/*.h',
-    'wpilibc/shared/include/**/*.hpp'
+    'wpilibc/shared/include/**/*.hpp',
+    'wpilibc/shared/include/**/*.inc'
   ]),
   includes = ['wpilibc/Athena/include', 'wpilibc/shared/include'],
   linkopts = [
