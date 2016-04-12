@@ -33,4 +33,4 @@ before_install:
   - ./bazel-0.2.1-installer-linux-x86_64.sh --user
 
 script:
-  - bazel test //... -//third_party/... -//tools/...
+  - bazel build //:test --cpu=roborio
