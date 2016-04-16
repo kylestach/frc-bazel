@@ -12,7 +12,8 @@ cc_library(
   ]),
   includes = ['wpilibc/Athena/include', 'wpilibc/shared/include'],
   linkopts = [
-    '-lpthread'
+    '-lpthread',
+    '-ldl'
   ],
   deps = ['//third_party/wpilib/hal', '//third_party/wpilib/ntcore'],
   visibility = ['//visibility:public'],
